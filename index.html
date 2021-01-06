@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="shortcut icon" href="./assets/icons/google-icon.svg" type="image/x-icon" />
+    <title>Google Search Clone</title>
+  </head>
+  <body>
+    <header class="header">
+      <section class="header-group">
+        <form class="section-theme">
+          <label class="section-theme__name" for="themeButton"> Dark Theme</label>
+          <input class="section-theme__checkbox" type="checkbox" id="themeButton" />
+        </form>
+      </section>
+      <section class="header-group">
+        <nav>
+          <ul class="main-menu">
+            <li class="main-menu__item"><a class="main-menu__link" href="#">Gmail</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="#">Imágenes</a></li>
+            <li class="main-menu__item">
+              <a class="main-menu__link" href="#"
+                ><img
+                  class="main-menu__icon--image"
+                  src="./assets/icons/grid.svg"
+                  alt="Grid icon"
+              /></a>
+            </li>
+            <li class="main-menu__item"><a class="main-menu__link--profile" href="#">W</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <main class="main">
+      <section>
+        <ul class="main-name">
+          <li class="main-name__letter">G</li>
+          <li class="main-name__letter">o</li>
+          <li class="main-name__letter">o</li>
+          <li class="main-name__letter">g</li>
+          <li class="main-name__letter">l</li>
+          <li class="main-name__letter">e</li>
+        </ul>
+        <form class="main-form">
+          <div class="main-form__group" for="search">
+            <img
+              class="main-form__icon"
+              src="./assets/icons/search-glass.svg"
+              alt="Search icon"
+            />
+            <input class="main-form__input--search" type="text" id="search" />
+            <img
+              class="main-form__icon"
+              src="./assets/icons/microphone.svg"
+              alt="Search microphone icon"
+            />
+          </div>
+          <div class="main-form__group">
+            <button class="main-form__input--action" type="submit">Buscar</button>
+            <button class="main-form__input--action" type="submit">
+              Me siento con suerte
+            </button>
+          </div>
+        </form>
+        <div class="paragraph">
+          <p class="paragraph__content">
+            Ofrecido por Google en: <a class="paragraph__content--link" href="#">English</a>
+            <a class="paragraph__content--link" href="#">Quechua</a>
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="footer-group">
+        <p class="footer-group__country">Perú</p>
+      </section>
+      <section class="footer-group">
+        <nav class="footer-group--double">
+          <ul class="footer-group__list">
+            <li class="footer-group__list__item">
+              <a class="footer-group__list__link" href="#">Publicidad</a>
+            </li>
+            <li class="footer-group__list__item">
+              <a class="footer-group__list__link" href="#">Negocios</a>
+            </li>
+            <li class="footer-group__list__item">
+              <a class="footer-group__list__link" href="#">Sobre Google</a>
+            </li>
+            <li class="footer-group__list__item">
+              <a class="footer-group__list__link" href="#">Cómo funciona la Búsqueda</a>
+            </li>
+          </ul>
+          <ul class="footer-group__list">
+            <li class="footer-group__list__item">
+              <a class="footer-group__list__link" href="#">Privacidad</a>
+            </li>
+            <li class="footer-group__list__item">
+              <a class="footer-group__list__link" href="#">Condiciones</a>
+            </li>
+            <li class="footer-group__list__item">
+              <a class="footer-group__list__link" href="#">Preferencias</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
